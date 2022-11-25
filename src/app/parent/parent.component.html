@@ -1,0 +1,9 @@
+<div>
+    <h3> Parent component</h3>
+    <input type="text" [(ngModel)]="channelNameInParent">
+
+    <p> {{msgFromChild}} </p>
+    
+</div>
+<app-child [channelName]="channelNameInParent"  
+(sendMessageEmitter)="receiveMessage($event)" ></app-child>
