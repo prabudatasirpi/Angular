@@ -10,6 +10,7 @@ import { NewComponent } from './new/new.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { DatabindingComponent } from './databinding/databinding.component';
+import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { DatabindingComponent } from './databinding/databinding.component';
     ParentComponent,
     ChildComponent,
     DatabindingComponent,
+    PropertybindingComponent,
   
   ],
   imports: [

@@ -1,0 +1,22 @@
+#propertybindingheader h2{
+    text-align: center;
+    color: #C3002F;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#propertybindingheader h2 span{
+    color: #1976D2;
+}
+#propertybinding-ex{
+    color: #1976D2;
+}
+
+input#propertybinding-input{
+                color:blue;
+                margin-top: 20px; 
+                margin-left: 100px;
+}
+img #header-img{
+    width: 100px;
+    height: 100px;
+}
