@@ -12,12 +12,14 @@ import { ChildComponent } from './child/child.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
+import { TemplateComponent } from './template/template.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SuccessAlertComponent,
     WarningAlertComponent,
+    TemplateComponent,
     NewComponent,
     ParentComponent,
     ChildComponent,
