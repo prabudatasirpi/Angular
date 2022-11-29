@@ -8,17 +8,21 @@ import { Component } from '@angular/core';
 export class EventbindingComponent {
 
   ColumnSpan: number = 2;
-  FirstName: string = 'Anurag';
-  LastName: string = 'Mohanty';
-  Branch: string = 'CSE';
+  FirstName: string = 'Prabu';
+  LastName: string = 'Kannappan';
+  Branch: string = 'Mechanical';
   Mobile: number = 9876543210
   Gender: string = 'Male';
-  Age: number = 20;
-  ShowDetails: boolean = true;
+  Age: number = 22;
+  ShowDetails: boolean = false;
 
 
   ToggleDetails(): void {
       this.ShowDetails = !this.ShowDetails;
+  }
+
+  buttonClicked(){
+    alert("Click me");
   }
 
 }
