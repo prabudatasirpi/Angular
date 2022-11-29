@@ -9,6 +9,7 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { NewComponent } from './new/new.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { DatabindingComponent } from './databinding/databinding.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ChildComponent } from './child/child.component';
     NewComponent,
     ParentComponent,
     ChildComponent,
+    DatabindingComponent,
   
   ],
   imports: [
