@@ -13,6 +13,8 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { TemplateComponent } from './template/template.component';
+import { InbuiltPipesComponent } from './inbuilt-pipes/inbuilt-pipes.component';
+import { CustomPipesComponent } from './custom-pipes/custom-pipes.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { TemplateComponent } from './template/template.component';
     DatabindingComponent,
     PropertybindingComponent,
     EventbindingComponent,
+    InbuiltPipesComponent,
+    CustomPipesComponent,
   
   ],
   imports: [

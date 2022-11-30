@@ -1,0 +1,30 @@
+<h2>Data Pipe</h2>
+<div>
+    <div> {{ today }}</div>
+    <div> {{today | date: 'dd - MMM - yyyy'}} </div>
+</div>
+
+<h2>String Pipe</h2>
+<div>{{ myname }}</div>
+<!-- <div>{{ myname | automaticemailappender}}</div> -->
+<div>{{ myname | lowercase}}</div>
+<div>{{ myname | uppercase}}</div>
+
+<h2>Number Pipe</h2>
+
+<div>{{ myNumber | number}}</div>
+<div>{{ myNumber | number: '1.1-2'}}</div>
+
+<h2>Percent Pipe</h2>
+
+<div>{{myNumber}}</div> 
+<div>{{myNumber | percent}}</div>
+<div>{{myNumber | percent : '1.1-2'}}</div>
+
+<h2>Currency Pipe</h2>
+
+
+<div>{{mycurrency}}</div>
+<div>{{mycurrency | currency:'INR' : 'code'}}</div>
+
+ 
