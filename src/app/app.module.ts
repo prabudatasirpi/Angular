@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +15,9 @@ import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { TemplateComponent } from './template/template.component';
 import { InbuiltPipesComponent } from './inbuilt-pipes/inbuilt-pipes.component';
 import { CustomPipesComponent } from './custom-pipes/custom-pipes.component';
+import { NgFor } from '@angular/common';
+import { MyPipePipe } from './my-pipe.pipe';
+
 
 @NgModule({
   declarations: [
@@ -30,12 +33,17 @@ import { CustomPipesComponent } from './custom-pipes/custom-pipes.component';
     EventbindingComponent,
     InbuiltPipesComponent,
     CustomPipesComponent,
+    MyPipePipe,
+    
+
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    NgFor
   ],
   providers: [],
   bootstrap: [AppComponent]

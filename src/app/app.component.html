@@ -115,11 +115,17 @@
 <!-- <app-eventbinding></app-eventbinding> -->
 
 <!-- <app-inbuilt-pipes></app-inbuilt-pipes> -->
-<app-custom-pipes></app-custom-pipes>
+<!-- <app-custom-pipes></app-custom-pipes> -->
+<div class="container">
+<!-- <form id="main-form" method="get">
+  <h2 id="header-text">Useremail:</h2>
+  <input id="header-input" type="email" name="email" 
+  oninput="this.value = this.value.toLowerCase()"  autocomplete="username"  autofocus >
+  <button id="login-btn"  type="submit" value="submit" class="btn btn-secondary btn-sm" >Log-in</button>
+</form> -->
+</div>
 
-
-
-
-
-
-
+<div class="container">
+  <h2 id="main-header"> Useremail</h2>
+<input id="main-input" type="text" [ngModel]="mail | myPipe" (ngModelChange)="mail=$event">
+</div>
