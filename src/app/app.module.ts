@@ -17,6 +17,7 @@ import { InbuiltPipesComponent } from './inbuilt-pipes/inbuilt-pipes.component';
 import { CustomPipesComponent } from './custom-pipes/custom-pipes.component';
 import { NgFor } from '@angular/common';
 import { MyPipePipe } from './my-pipe.pipe';
+import { CreatecustomdirectiveDirective } from './createcustomdirective.directive';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { MyPipePipe } from './my-pipe.pipe';
     InbuiltPipesComponent,
     CustomPipesComponent,
     MyPipePipe,
+    CreatecustomdirectiveDirective,
     
 
   
